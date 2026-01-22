@@ -39,7 +39,6 @@ class RecipeBase(BaseModel):
 
 class RecipeCreate(RecipeBase):
     """Payload for creating a recipe."""
-    pass
 
 
 class RecipeUpdate(BaseModel):
